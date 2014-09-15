@@ -23,8 +23,8 @@ to see REAL TIME analytics.
 Core Team:
 =========================
 
-Daniele Acquadro		3D Printer Server and arduino printing interface
-Ruggero Di Benedetto 	Pivoting and MS Kietic hardware
-Giovanni Giorgi         C# Programming (Kin & Web)
-Silvia Zicca			AJAX Analytics developement
++ Daniele Acquadro		3D Printer Server and arduino printing interface
++ Ruggero Di Benedetto 	Pivoting and MS Kietic hardware
++ Giovanni Giorgi         C# Programming (Kin & Web)
++ Silvia Zicca			AJAX Analytics developement
 
