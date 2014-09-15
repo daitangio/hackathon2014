@@ -1,0 +1,32 @@
+body{
+font-family: Verdana;
+}
+
+h1{
+font-size:15px;
+background-color:grey;
+}
+
+table{
+width:200px;
+height:70px;
+border: 3px solid black;
+float: left;
+margin:10px;
+}
+
+td{
+text-align:center;}
+
+th{
+background: black;
+color: white;}
+
+.container_top{
+width:100%;
+}
+
+.top_left{
+width:450px;
+float:left;
+}

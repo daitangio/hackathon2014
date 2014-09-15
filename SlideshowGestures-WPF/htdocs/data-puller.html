@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <div class="data">Data here</div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            function timeout() {
+                setTimeout(function () {
+                    // Do Something Here
+                    // Then recall the parent function to
+                    // create a recursive loop.
+                    $.get("/data", function (data) {
+                        //$(".data").html(data);
+                        var stuffz=parseInt(("" + data).split(";")[1]);
+                        //alert("Load was performed.");
+                        $(".data").html(stuffz);
+                    });
+                    timeout();
+                }, 1000);
+            }
+            timeout();
+        });
+
+    </script>
+
+</body>
+</html>
